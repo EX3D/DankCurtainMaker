@@ -386,7 +386,7 @@ rollout DankLowResCurtainMaker "Cortinificador" (
 			clearwindow_cover()
 			cortinificar()
 			aligner()
-			offseter()
+			DankLowResCurtainMaker
 		)
 		if selection.count == 0 do (
 		)
@@ -421,7 +421,7 @@ rollout DankLowResCurtainMaker "Cortinificador" (
 		clearwindow_cover()
 		cortinificar()
 		aligner()
-		offseter()
+		DankLowResCurtainMaker
 	)
 	on spn_prob_blackouts changed val do (
 		prob_blackouts = val
@@ -429,7 +429,7 @@ rollout DankLowResCurtainMaker "Cortinificador" (
 		clearwindow_cover()
 		cortinificar()
 		aligner()
-		offseter()
+		DankLowResCurtainMaker
 	)
 	on spn_prob_persianas changed val do (
 		prob_persianas = val
@@ -437,7 +437,7 @@ rollout DankLowResCurtainMaker "Cortinificador" (
 		clearwindow_cover()
 		cortinificar()
 		aligner()
-		offseter()
+		DankLowResCurtainMaker
 	)
 	on spn_prob_cortinas changed val do (
 		prob_cortinas = val
@@ -445,7 +445,7 @@ rollout DankLowResCurtainMaker "Cortinificador" (
 		clearwindow_cover()
 		cortinificar()
 		aligner()
-		offseter()
+		DankLowResCurtainMaker
 	)
 	on spn_x changed val do (
 		offsetx = val
@@ -462,13 +462,13 @@ rollout DankLowResCurtainMaker "Cortinificador" (
 	on spn_out changed val do (
 		out = val
 		aligner()
-		offseter()
+		DankLowResCurtainMaker
 	)
 	on btn pressed do (
 		clearwindow_cover()
 		cortinificar()
 		aligner()
-		offseter()
+		DankLowResCurtainMaker
 		clearselection()
 	)
 	on process_btn pressed do (
@@ -512,7 +512,7 @@ rollout DankLowResCurtainMaker "Cortinificador" (
 		clearwindow_cover()
 		cortinificar()
 		aligner()
-		offseter()
+		DankLowResCurtainMaker
 	)
 )-- End Rollout
 createDialog DankLowResCurtainMaker  pos:[1990,200] 
