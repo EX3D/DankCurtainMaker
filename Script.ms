@@ -515,4 +515,4 @@ rollout DankLowResCurtainMaker "Cortinificador" (
 		DankLowResCurtainMaker
 	)
 )-- End Rollout
-createDialog DankLowResCurtainMaker  pos:[1990,200] 
+createDialog DankLowResCurtainMaker  pos:[1000,200] 
